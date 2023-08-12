@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0">
+        <title>原神素材計算</title>
+    </head>
+    <body>
+        <h1>素材計算</h1>
+        <h2>天賦素材計算</h2>
+        <div>
+            天賦LV<input type='text' id='txtZipCode1' value="1.1.1">から
+            <input type='text' id='txtZipCode2' value="8.8.8">まで
+            <p>※通常、スキル、爆発の天賦LVを１、１、１から８、８、８まで上げる場合は</p><p>1.1.1と8.8.8と入力してください。</p>
+            <p><input type='button' id='btnSubmitnum1' value="計算開始"></p>
+        </div>
+            <img src="img/tenpubon.jpeg" width="80" alt="">
+            <img src="img/zakosozai.jpeg" width="80" alt="">
+            <img src="img/shubosusozai.jpeg" width="80" alt="">
+            <img src="img/kanmuri.jpeg" width="80" alt="">
+            <br><br>
+            <div id="result1"></div>
+            <br>
+        <h2>突破素材計算(未実装)</h2>  
+        <div>
+            LV<input type='text' id='txtZipCode2' value="20">(未突破)から
+            <input type='text' id='txtZipCode4' value="90">(未突破)まで
+            <p>※ただし数字は20、40、50、60、70、80、90のみ入力可能です。</p>
+            <p>LVを20(未突破)から90まで上げる場合は</p><p>20と90と入力してください。</p></p>
+            <p><input type='button' id='btnSubmitnum2' value="計算開始"></p>
+        </div>
+            <img src="img/hon.jpeg" width="60" alt="">
+            <img src="img/tokusan.jpeg" width="60" alt="">
+            <img src="img/zakosozai.jpeg" width="60" alt="">
+            <img src="img/bosusozai.jpeg" width="60" alt="">
+            <img src="img/houseki.jpeg" width="60" alt="">
+            <div id="result2"></div>
+
+        <script src="tenputoppa.js">"use strict";</script>
+    </body>
+</html>
